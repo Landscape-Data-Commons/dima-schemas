@@ -1,0 +1,1187 @@
+dimadev,Projects,curator_PersonName,text,,1073741824
+dimadev,Projects,curator_organization,text,,1073741824
+dimadev,Projects,curator_email,text,,1073741824
+dimadev,Projects,author_PersonName,text,,1073741824
+dimadev,Projects,author_email,text,,1073741824
+dimadev,Projects,author_orcid_id,text,,1073741824
+dimadev,Projects,addit_contact_person,text,,1073741824
+dimadev,Projects,addit_contact_email,text,,1073741824
+dimadev,Projects,bibliographical_reference,text,,1073741824
+dimadev,Projects,data_doi,text,,1073741824
+dimadev,Projects,project_key,text,,1073741824
+dimadev,Projects,project_name,text,,1073741824
+dimadev,Projects,project_description,text,,1073741824
+dimadev,Projects,project_website,text,,1073741824
+dimadev,Projects,data_use_agreement,text,,1073741824
+dimadev,Projects,rid,integer,,
+dimadev,tblDKDetail,RecKey,character varying,50,200
+dimadev,tblDKDetail,SpeciesSymbol,character varying,50,200
+dimadev,tblDKDetail,DKClass,character varying,50,200
+dimadev,tblDKDetail,LPIPercentCanopy,character varying,50,200
+dimadev,tblDKDetail,LPIPercentBasal,character varying,50,200
+dimadev,tblDKDetail,Production,character varying,50,200
+dimadev,tblDKDetail,Notes,text,,1073741824
+dimadev,tblDKDetail,CoverMidPoint,real,,
+dimadev,tblDKDetail,CanopyCoverPoints,character varying,50,200
+dimadev,tblDKDetail,CanopyCoverPercent,character varying,50,200
+dimadev,tblDKDetail,BareGroundPoints,character varying,50,200
+dimadev,tblDKDetail,BareGroundPercent,character varying,50,200
+dimadev,tblDKDetail,BasalCoverPoints,character varying,50,200
+dimadev,tblDKDetail,BasalCoverPercent,character varying,50,200
+dimadev,tblDKDetail,PrimaryKey,text,,1073741824
+dimadev,tblDKDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblDKDetail,DBKey,text,,1073741824
+dimadev,tblDKDetail,rid,integer,,
+dimadev,tblDKHeader,PlotKey,character varying,50,200
+dimadev,tblDKHeader,RecKey,character varying,50,200
+dimadev,tblDKHeader,DateModified,timestamp without time zone,,
+dimadev,tblDKHeader,FormType,character varying,8,32
+dimadev,tblDKHeader,FormDate,timestamp without time zone,,
+dimadev,tblDKHeader,Observers,text,,1073741824
+dimadev,tblDKHeader,All_PGs_DK_CoverClass,text,,1073741824
+dimadev,tblDKHeader,PrimaryKey,text,,1073741824
+dimadev,tblDKHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblDKHeader,DBKey,text,,1073741824
+dimadev,tblDKHeader,rid,integer,,
+dimadev,tblDustDeposition,PlotKey,character varying,50,200
+dimadev,tblDustDeposition,StackID,character varying,50,200
+dimadev,tblDustDeposition,DateEstablished,timestamp without time zone,,
+dimadev,tblDustDeposition,Location,character varying,100,400
+dimadev,tblDustDeposition,ItemType,character varying,1,4
+dimadev,tblDustDeposition,trapOpeningArea,real,,
+dimadev,tblDustDeposition,GPSCoordSys,text,,1073741824
+dimadev,tblDustDeposition,Datum,text,,1073741824
+dimadev,tblDustDeposition,Zone,text,,1073741824
+dimadev,tblDustDeposition,Easting,real,,
+dimadev,tblDustDeposition,Northing,numeric,,
+dimadev,tblDustDeposition,Longitude,real,,
+dimadev,tblDustDeposition,Latitude,real,,
+dimadev,tblDustDeposition,RecKey,character varying,255,1020
+dimadev,tblDustDeposition,DateModified,timestamp without time zone,,
+dimadev,tblDustDeposition,collectDate,timestamp without time zone,,
+dimadev,tblDustDeposition,Collector,character varying,30,120
+dimadev,tblDustDeposition,labTech,character varying,30,120
+dimadev,tblDustDeposition,beakerNbr,character varying,20,80
+dimadev,tblDustDeposition,emptyWeight,real,,
+dimadev,tblDustDeposition,recordedWeight,real,,
+dimadev,tblDustDeposition,sedimentWeight,real,,
+dimadev,tblDustDeposition,daysExposed,integer,,
+dimadev,tblDustDeposition,sedimentGperDay,real,,
+dimadev,tblDustDeposition,sedimentArchived,boolean,,
+dimadev,tblDustDeposition,sedimentGperDayByInlet,real,,
+dimadev,tblDustDeposition,SeqNo,integer,,
+dimadev,tblDustDeposition,SampleCompromised,boolean,,
+dimadev,tblDustDeposition,PrimaryKey,text,,1073741824
+dimadev,tblDustDeposition,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblDustDeposition,DBKey,text,,1073741824
+dimadev,tblDustDeposition,rid,integer,,
+dimadev,tblESDRockFragments,RecKey,character varying,50,200
+dimadev,tblESDRockFragments,SurfPedon,character varying,50,200
+dimadev,tblESDRockFragments,Type,character varying,50,200
+dimadev,tblESDRockFragments,VolumeClass,character varying,50,200
+dimadev,tblESDRockFragments,SurfaceCoverPct,character varying,50,200
+dimadev,tblESDRockFragments,Notes,character varying,50,200
+dimadev,tblESDRockFragments,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblESDRockFragments,DBKey,text,,1073741824
+dimadev,tblESDRockFragments,rid,integer,,
+dimadev,tblGapDetail,RecKey,character varying,50,200
+dimadev,tblGapDetail,SeqNo,integer,,
+dimadev,tblGapDetail,RecType,character varying,1,4
+dimadev,tblGapDetail,GapStart,character varying,50,200
+dimadev,tblGapDetail,GapEnd,character varying,50,200
+dimadev,tblGapDetail,Gap,character varying,50,200
+dimadev,tblGapDetail,PrimaryKey,text,,1073741824
+dimadev,tblGapDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblGapDetail,DBKey,text,,1073741824
+dimadev,tblGapDetail,rid,integer,,
+dimadev,tblGapHeader,LineKey,character varying,20,80
+dimadev,tblGapHeader,RecKey,character varying,50,200
+dimadev,tblGapHeader,DateModified,timestamp without time zone,,
+dimadev,tblGapHeader,FormType,character varying,5,20
+dimadev,tblGapHeader,FormDate,timestamp without time zone,,
+dimadev,tblGapHeader,Observer,character varying,50,200
+dimadev,tblGapHeader,Recorder,character varying,50,200
+dimadev,tblGapHeader,DataEntry,character varying,50,200
+dimadev,tblGapHeader,DataErrorChecking,character varying,50,200
+dimadev,tblGapHeader,Direction,character varying,10,40
+dimadev,tblGapHeader,Measure,real,,
+dimadev,tblGapHeader,LineLengthAmount,real,,
+dimadev,tblGapHeader,GapMin,real,,
+dimadev,tblGapHeader,GapData,character varying,5,20
+dimadev,tblGapHeader,PerennialsCanopy,boolean,,
+dimadev,tblGapHeader,AnnualGrassesCanopy,boolean,,
+dimadev,tblGapHeader,AnnualForbsCanopy,boolean,,
+dimadev,tblGapHeader,OtherCanopy,boolean,,
+dimadev,tblGapHeader,sumCanCat1,real,,
+dimadev,tblGapHeader,sumCanCat2,real,,
+dimadev,tblGapHeader,sumCanCat3,real,,
+dimadev,tblGapHeader,sumCanCat4,real,,
+dimadev,tblGapHeader,pctCanCat1,real,,
+dimadev,tblGapHeader,pctCanCat2,real,,
+dimadev,tblGapHeader,pctCanCat3,real,,
+dimadev,tblGapHeader,pctCanCat4,real,,
+dimadev,tblGapHeader,sumBasCat1,real,,
+dimadev,tblGapHeader,sumBasCat2,real,,
+dimadev,tblGapHeader,sumBasCat3,real,,
+dimadev,tblGapHeader,sumBasCat4,real,,
+dimadev,tblGapHeader,pctBasCat1,real,,
+dimadev,tblGapHeader,pctBasCat2,real,,
+dimadev,tblGapHeader,pctBasCat3,real,,
+dimadev,tblGapHeader,pctBasCat4,real,,
+dimadev,tblGapHeader,Notes,text,,1073741824
+dimadev,tblGapHeader,NoCanopyGaps,boolean,,
+dimadev,tblGapHeader,NoBasalGaps,boolean,,
+dimadev,tblGapHeader,PerennialsBasal,boolean,,
+dimadev,tblGapHeader,AnnualGrassesBasal,boolean,,
+dimadev,tblGapHeader,AnnualForbsBasal,boolean,,
+dimadev,tblGapHeader,OtherBasal,boolean,,
+dimadev,tblGapHeader,PrimaryKey,text,,1073741824
+dimadev,tblGapHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblGapHeader,DBKey,text,,1073741824
+dimadev,tblGapHeader,rid,integer,,
+dimadev,tblGapHeader,plotVisitKey,text,,1073741824
+dimadev,tblHorizontalFlux,BoxID,character varying,50,200
+dimadev,tblHorizontalFlux,StackID,character varying,50,200
+dimadev,tblHorizontalFlux,Height,real,,
+dimadev,tblHorizontalFlux,Description,character varying,50,200
+dimadev,tblHorizontalFlux,openingSize,character varying,20,80
+dimadev,tblHorizontalFlux,processMethod,character varying,25,100
+dimadev,tblHorizontalFlux,ovenTemp,integer,,
+dimadev,tblHorizontalFlux,BoxType,integer,,
+dimadev,tblHorizontalFlux,azimuth,character varying,255,1020
+dimadev,tblHorizontalFlux,SamplerType,character varying,25,100
+dimadev,tblHorizontalFlux,InletArea,real,,
+dimadev,tblHorizontalFlux,PlotKey,character varying,50,200
+dimadev,tblHorizontalFlux,Location,character varying,100,400
+dimadev,tblHorizontalFlux,ItemType,character varying,1,4
+dimadev,tblHorizontalFlux,trapOpeningArea,real,,
+dimadev,tblHorizontalFlux,RecKey,character varying,255,1020
+dimadev,tblHorizontalFlux,collectDate,timestamp without time zone,,
+dimadev,tblHorizontalFlux,Collector,character varying,30,120
+dimadev,tblHorizontalFlux,labTech,character varying,30,120
+dimadev,tblHorizontalFlux,beakerNbr,character varying,20,80
+dimadev,tblHorizontalFlux,emptyWeight,real,,
+dimadev,tblHorizontalFlux,recordedWeight,real,,
+dimadev,tblHorizontalFlux,sedimentWeight,real,,
+dimadev,tblHorizontalFlux,daysExposed,integer,,
+dimadev,tblHorizontalFlux,sedimentGperDay,real,,
+dimadev,tblHorizontalFlux,sedimentArchived,boolean,,
+dimadev,tblHorizontalFlux,Notes,text,,1073741824
+dimadev,tblHorizontalFlux,sedimentGperDayByInlet,real,,
+dimadev,tblHorizontalFlux,SeqNo,integer,,
+dimadev,tblHorizontalFlux,SampleCompromised,boolean,,
+dimadev,tblHorizontalFlux,PrimaryKey,text,,1073741824
+dimadev,tblHorizontalFlux,DateLoadedInDB,text,,1073741824
+dimadev,tblHorizontalFlux,DBKey,text,,1073741824
+dimadev,tblHorizontalFlux,rid,integer,,
+dimadev,tblHorizontalFlux,GPSCoordSys,text,,1073741824
+dimadev,tblHorizontalFlux,Datum,text,,1073741824
+dimadev,tblHorizontalFlux,Zone,text,,1073741824
+dimadev,tblHorizontalFlux,Easting,double precision,,
+dimadev,tblHorizontalFlux,Northing,double precision,,
+dimadev,tblHorizontalFlux,Latitude,double precision,,
+dimadev,tblHorizontalFlux,Longitude,double precision,,
+dimadev,tblLines,PlotKey,character varying,50,200
+dimadev,tblLines,LineKey,character varying,20,80
+dimadev,tblLines,DateModified,timestamp without time zone,,
+dimadev,tblLines,LineID,character varying,15,60
+dimadev,tblLines,Azimuth,numeric,,
+dimadev,tblLines,ElevationType,real,,
+dimadev,tblLines,NorthType,integer,,
+dimadev,tblLines,NorthingStart,numeric,,
+dimadev,tblLines,EastingStart,real,,
+dimadev,tblLines,ElevationStart,real,,
+dimadev,tblLines,NorthingEnd,numeric,,
+dimadev,tblLines,EastingEnd,real,,
+dimadev,tblLines,ElevationEnd,real,,
+dimadev,tblLines,LatitudeStart,real,,
+dimadev,tblLines,LongitudeStart,real,,
+dimadev,tblLines,LatitudeEnd,real,,
+dimadev,tblLines,LongitudeEnd,real,,
+dimadev,tblLines,PrimaryKey,text,,1073741824
+dimadev,tblLines,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblLines,DBKey,text,,1073741824
+dimadev,tblLines,rid,integer,,
+dimadev,tblLPIDetail,RecKey,character varying,50,200
+dimadev,tblLPIDetail,PointLoc,real,,
+dimadev,tblLPIDetail,PointNbr,integer,,
+dimadev,tblLPIDetail,TopCanopy,character varying,50,200
+dimadev,tblLPIDetail,Lower1,character varying,50,200
+dimadev,tblLPIDetail,Lower2,character varying,50,200
+dimadev,tblLPIDetail,Lower3,character varying,50,200
+dimadev,tblLPIDetail,Lower4,character varying,50,200
+dimadev,tblLPIDetail,SoilSurface,character varying,50,200
+dimadev,tblLPIDetail,HeightTop,character varying,12,48
+dimadev,tblLPIDetail,ChkboxTop,boolean,,
+dimadev,tblLPIDetail,ChkboxLower1,boolean,,
+dimadev,tblLPIDetail,ChkboxLower2,boolean,,
+dimadev,tblLPIDetail,ChkboxLower3,boolean,,
+dimadev,tblLPIDetail,ChkboxLower4,boolean,,
+dimadev,tblLPIDetail,ChkboxSoil,boolean,,
+dimadev,tblLPIDetail,HeightLower1,character varying,12,48
+dimadev,tblLPIDetail,HeightLower2,character varying,12,48
+dimadev,tblLPIDetail,HeightLower3,character varying,12,48
+dimadev,tblLPIDetail,HeightLower4,character varying,12,48
+dimadev,tblLPIDetail,HeightSurface,character varying,12,48
+dimadev,tblLPIDetail,HeightWoody,character varying,12,48
+dimadev,tblLPIDetail,HeightHerbaceous,character varying,12,48
+dimadev,tblLPIDetail,ShrubShape,character varying,5,20
+dimadev,tblLPIDetail,SpeciesWoody,character varying,50,200
+dimadev,tblLPIDetail,SpeciesHerbaceous,character varying,50,200
+dimadev,tblLPIDetail,ChkboxWoody,boolean,,
+dimadev,tblLPIDetail,ChkboxHerbaceous,boolean,,
+dimadev,tblLPIDetail,Lower5,character varying,50,200
+dimadev,tblLPIDetail,Lower6,character varying,50,200
+dimadev,tblLPIDetail,Lower7,character varying,50,200
+dimadev,tblLPIDetail,ChkboxLower5,boolean,,
+dimadev,tblLPIDetail,ChkboxLower6,boolean,,
+dimadev,tblLPIDetail,ChkboxLower7,boolean,,
+dimadev,tblLPIDetail,HeightLower5,character varying,12,48
+dimadev,tblLPIDetail,HeightLower6,character varying,12,48
+dimadev,tblLPIDetail,HeightLower7,character varying,12,48
+dimadev,tblLPIDetail,SpeciesLowerHerb,text,,1073741824
+dimadev,tblLPIDetail,HeightLowerHerb,text,,1073741824
+dimadev,tblLPIDetail,ChkboxLowerHerb,text,,1073741824
+dimadev,tblLPIDetail,PrimaryKey,text,,1073741824
+dimadev,tblLPIDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblLPIDetail,DBKey,text,,1073741824
+dimadev,tblLPIDetail,rid,integer,,
+dimadev,tblLPIHeader,LineKey,character varying,20,80
+dimadev,tblLPIHeader,RecKey,character varying,50,200
+dimadev,tblLPIHeader,DateModified,timestamp without time zone,,
+dimadev,tblLPIHeader,FormType,character varying,5,20
+dimadev,tblLPIHeader,FormDate,timestamp without time zone,,
+dimadev,tblLPIHeader,Observer,character varying,50,200
+dimadev,tblLPIHeader,Recorder,character varying,50,200
+dimadev,tblLPIHeader,DataEntry,character varying,50,200
+dimadev,tblLPIHeader,DataErrorChecking,character varying,50,200
+dimadev,tblLPIHeader,Direction,character varying,10,40
+dimadev,tblLPIHeader,Measure,real,,
+dimadev,tblLPIHeader,LineLengthAmount,real,,
+dimadev,tblLPIHeader,SpacingIntervalAmount,real,,
+dimadev,tblLPIHeader,SpacingType,character varying,5,20
+dimadev,tblLPIHeader,HeightOption,character varying,15,60
+dimadev,tblLPIHeader,HeightUOM,character varying,5,20
+dimadev,tblLPIHeader,ShowCheckbox,boolean,,
+dimadev,tblLPIHeader,CheckboxLabel,character varying,20,80
+dimadev,tblLPIHeader,numCanopy,integer,,
+dimadev,tblLPIHeader,numBare,integer,,
+dimadev,tblLPIHeader,numBasal,integer,,
+dimadev,tblLPIHeader,pctCanopy,real,,
+dimadev,tblLPIHeader,pctBare,real,,
+dimadev,tblLPIHeader,pctBasal,real,,
+dimadev,tblLPIHeader,pctCheckedPlants,real,,
+dimadev,tblLPIHeader,pctCheckedTopPlants,real,,
+dimadev,tblLPIHeader,pctCheckedTopPoints,real,,
+dimadev,tblLPIHeader,LayerHeights,boolean,,
+dimadev,tblLPIHeader,WoodyHerbHeights,boolean,,
+dimadev,tblLPIHeader,LowerHerbHeight,boolean,,
+dimadev,tblLPIHeader,pctCheckedSoil,real,,
+dimadev,tblLPIHeader,avgHeightTop,real,,
+dimadev,tblLPIHeader,Notes,text,,1073741824
+dimadev,tblLPIHeader,avgHeightLower1,real,,
+dimadev,tblLPIHeader,avgHeightLower2,real,,
+dimadev,tblLPIHeader,avgHeightLower3,real,,
+dimadev,tblLPIHeader,avgHeightLower4,real,,
+dimadev,tblLPIHeader,avgHeightSurface,real,,
+dimadev,tblLPIHeader,numGrCovTotal,integer,,
+dimadev,tblLPIHeader,numGrCovBetween,integer,,
+dimadev,tblLPIHeader,numGrCovUnder,integer,,
+dimadev,tblLPIHeader,numLitterTotal,integer,,
+dimadev,tblLPIHeader,numLitterBetween,integer,,
+dimadev,tblLPIHeader,numLitterUnder,integer,,
+dimadev,tblLPIHeader,pctGrCovTotal,real,,
+dimadev,tblLPIHeader,pctGrCovBetween,real,,
+dimadev,tblLPIHeader,pctGrCovUnder,real,,
+dimadev,tblLPIHeader,pctLitterTotal,real,,
+dimadev,tblLPIHeader,pctLitterBetween,real,,
+dimadev,tblLPIHeader,pctLitterUnder,real,,
+dimadev,tblLPIHeader,HeightNoneOption,boolean,,
+dimadev,tblLPIHeader,avgHeightWoody,real,,
+dimadev,tblLPIHeader,avgHeightHerb,real,,
+dimadev,tblLPIHeader,ShowShrubShape,boolean,,
+dimadev,tblLPIHeader,RapidMode,boolean,,
+dimadev,tblLPIHeader,avgHeightLower5,real,,
+dimadev,tblLPIHeader,avgHeightLower6,real,,
+dimadev,tblLPIHeader,avgHeightLower7,real,,
+dimadev,tblLPIHeader,HAF_Other,text,,1073741824
+dimadev,tblLPIHeader,avgHeightLowerHerb,real,,
+dimadev,tblLPIHeader,PrimaryKey,text,,1073741824
+dimadev,tblLPIHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblLPIHeader,DBKey,text,,1073741824
+dimadev,tblLPIHeader,rid,integer,,
+dimadev,tblLPIHeader,plotVisitKey,text,,1073741824
+dimadev,tblPlantDenDetail,RecKey,character varying,50,200
+dimadev,tblPlantDenDetail,Quadrat,integer,,
+dimadev,tblPlantDenDetail,SpeciesCode,character varying,50,200
+dimadev,tblPlantDenDetail,SubQuadSize,real,,
+dimadev,tblPlantDenDetail,SubQuadSizeUOM,character varying,8,32
+dimadev,tblPlantDenDetail,AreaInHectares,real,,
+dimadev,tblPlantDenDetail,Class1total,integer,,
+dimadev,tblPlantDenDetail,Class2total,integer,,
+dimadev,tblPlantDenDetail,Class3total,integer,,
+dimadev,tblPlantDenDetail,Class4total,integer,,
+dimadev,tblPlantDenDetail,Class5total,integer,,
+dimadev,tblPlantDenDetail,Class6total,integer,,
+dimadev,tblPlantDenDetail,Class7total,integer,,
+dimadev,tblPlantDenDetail,Class8total,integer,,
+dimadev,tblPlantDenDetail,Class9total,integer,,
+dimadev,tblPlantDenDetail,Class1density,real,,
+dimadev,tblPlantDenDetail,Class2density,real,,
+dimadev,tblPlantDenDetail,Class3density,real,,
+dimadev,tblPlantDenDetail,Class4density,real,,
+dimadev,tblPlantDenDetail,Class5density,real,,
+dimadev,tblPlantDenDetail,Class6density,real,,
+dimadev,tblPlantDenDetail,Class7density,real,,
+dimadev,tblPlantDenDetail,Class8density,real,,
+dimadev,tblPlantDenDetail,Class9density,real,,
+dimadev,tblPlantDenDetail,PrimaryKey,text,,1073741824
+dimadev,tblPlantDenDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantDenDetail,DBKey,text,,1073741824
+dimadev,tblPlantDenDetail,rid,integer,,
+dimadev,tblPlantDenHeader,LineKey,character varying,50,200
+dimadev,tblPlantDenHeader,RecKey,character varying,50,200
+dimadev,tblPlantDenHeader,DateModified,timestamp without time zone,,
+dimadev,tblPlantDenHeader,FormType,character varying,50,200
+dimadev,tblPlantDenHeader,FormDate,timestamp without time zone,,
+dimadev,tblPlantDenHeader,Observer,character varying,50,200
+dimadev,tblPlantDenHeader,Recorder,character varying,50,200
+dimadev,tblPlantDenHeader,DataEntry,character varying,50,200
+dimadev,tblPlantDenHeader,DataErrorChecking,character varying,50,200
+dimadev,tblPlantDenHeader,Unused,text,,1073741824
+dimadev,tblPlantDenHeader,Direction,character varying,50,200
+dimadev,tblPlantDenHeader,Measure,integer,,
+dimadev,tblPlantDenHeader,LineLengthAmount,integer,,
+dimadev,tblPlantDenHeader,numQuadrats,integer,,
+dimadev,tblPlantDenHeader,Class1total,integer,,
+dimadev,tblPlantDenHeader,Class2total,integer,,
+dimadev,tblPlantDenHeader,Class3total,integer,,
+dimadev,tblPlantDenHeader,Class4total,integer,,
+dimadev,tblPlantDenHeader,Class5total,integer,,
+dimadev,tblPlantDenHeader,Class6total,integer,,
+dimadev,tblPlantDenHeader,Class7total,integer,,
+dimadev,tblPlantDenHeader,Class8total,integer,,
+dimadev,tblPlantDenHeader,Class9total,integer,,
+dimadev,tblPlantDenHeader,Class1density,real,,
+dimadev,tblPlantDenHeader,Class2density,real,,
+dimadev,tblPlantDenHeader,Class3density,real,,
+dimadev,tblPlantDenHeader,Class4density,real,,
+dimadev,tblPlantDenHeader,Class5density,real,,
+dimadev,tblPlantDenHeader,Class6density,real,,
+dimadev,tblPlantDenHeader,Class7density,real,,
+dimadev,tblPlantDenHeader,Class8density,real,,
+dimadev,tblPlantDenHeader,Class9density,real,,
+dimadev,tblPlantDenHeader,AllClassesTotal,integer,,
+dimadev,tblPlantDenHeader,AllClassesDensity,real,,
+dimadev,tblPlantDenHeader,Notes,text,,1073741824
+dimadev,tblPlantDenHeader,SpeciesSearchedFor,character varying,50,200
+dimadev,tblPlantDenHeader,PrimaryKey,text,,1073741824
+dimadev,tblPlantDenHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantDenHeader,DBKey,text,,1073741824
+dimadev,tblPlantDenHeader,rid,integer,,
+dimadev,tblPlantDenQuads,RecKey,character varying,25,100
+dimadev,tblPlantDenQuads,Quadrat,integer,,
+dimadev,tblPlantDenQuads,Description,character varying,100,400
+dimadev,tblPlantDenQuads,PrimaryKey,text,,1073741824
+dimadev,tblPlantDenQuads,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantDenQuads,DBKey,text,,1073741824
+dimadev,tblPlantDenQuads,rid,integer,,
+dimadev,tblPlantDenSpecies,RecKey,character varying,50,200
+dimadev,tblPlantDenSpecies,SpeciesCode,character varying,50,200
+dimadev,tblPlantDenSpecies,SubQuadSize,real,,
+dimadev,tblPlantDenSpecies,SubQuadSizeUOM,character varying,8,32
+dimadev,tblPlantDenSpecies,Class1total,integer,,
+dimadev,tblPlantDenSpecies,Class2total,integer,,
+dimadev,tblPlantDenSpecies,Class3total,integer,,
+dimadev,tblPlantDenSpecies,Class4total,integer,,
+dimadev,tblPlantDenSpecies,Class5total,integer,,
+dimadev,tblPlantDenSpecies,Class6total,integer,,
+dimadev,tblPlantDenSpecies,Class7total,integer,,
+dimadev,tblPlantDenSpecies,Class8total,integer,,
+dimadev,tblPlantDenSpecies,Class9total,integer,,
+dimadev,tblPlantDenSpecies,Class1density,real,,
+dimadev,tblPlantDenSpecies,Class2density,real,,
+dimadev,tblPlantDenSpecies,Class3density,real,,
+dimadev,tblPlantDenSpecies,Class4density,real,,
+dimadev,tblPlantDenSpecies,Class5density,real,,
+dimadev,tblPlantDenSpecies,Class6density,real,,
+dimadev,tblPlantDenSpecies,Class7density,real,,
+dimadev,tblPlantDenSpecies,Class8density,real,,
+dimadev,tblPlantDenSpecies,Class9density,real,,
+dimadev,tblPlantDenSpecies,PrimaryKey,text,,1073741824
+dimadev,tblPlantDenSpecies,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantDenSpecies,DBKey,text,,1073741824
+dimadev,tblPlantDenSpecies,rid,integer,,
+dimadev,tblPlantProdDetail,RecKey,character varying,50,200
+dimadev,tblPlantProdDetail,DetailKey,character varying,50,200
+dimadev,tblPlantProdDetail,SpeciesCode,character varying,50,200
+dimadev,tblPlantProdDetail,SubPlotSize,real,,
+dimadev,tblPlantProdDetail,SubPlotUOM,character varying,8,32
+dimadev,tblPlantProdDetail,SizeCF,real,,
+dimadev,tblPlantProdDetail,WtMeas,character varying,5,20
+dimadev,tblPlantProdDetail,WtMethod,character varying,15,60
+dimadev,tblPlantProdDetail,Sub1Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub2Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub3Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub4Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub5Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub6Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub7Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub8Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub9Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub10Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub11Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub12Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub13Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub14Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub15Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub16Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub17Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub18Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub19Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub20Wt,character varying,8,32
+dimadev,tblPlantProdDetail,Sub1Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub2Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub3Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub4Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub5Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub6Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub7Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub8Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub9Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub10Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub11Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub12Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub13Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub14Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub15Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub16Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub17Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub18Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub19Clip,boolean,,
+dimadev,tblPlantProdDetail,Sub20Clip,boolean,,
+dimadev,tblPlantProdDetail,TotalWtUnits,real,,
+dimadev,tblPlantProdDetail,WtUnitWt,real,,
+dimadev,tblPlantProdDetail,ClipWt1,real,,
+dimadev,tblPlantProdDetail,ClipWt2,real,,
+dimadev,tblPlantProdDetail,ClipWt3,real,,
+dimadev,tblPlantProdDetail,ClipWt4,real,,
+dimadev,tblPlantProdDetail,ClipWt5,real,,
+dimadev,tblPlantProdDetail,ClipWt6,real,,
+dimadev,tblPlantProdDetail,ClipWt7,real,,
+dimadev,tblPlantProdDetail,ClipWt8,real,,
+dimadev,tblPlantProdDetail,ClipWt9,real,,
+dimadev,tblPlantProdDetail,ClipWt10,real,,
+dimadev,tblPlantProdDetail,ClipWt11,real,,
+dimadev,tblPlantProdDetail,ClipWt12,real,,
+dimadev,tblPlantProdDetail,ClipWt13,real,,
+dimadev,tblPlantProdDetail,ClipWt14,real,,
+dimadev,tblPlantProdDetail,ClipWt15,real,,
+dimadev,tblPlantProdDetail,ClipWt16,real,,
+dimadev,tblPlantProdDetail,ClipWt17,real,,
+dimadev,tblPlantProdDetail,ClipWt18,real,,
+dimadev,tblPlantProdDetail,ClipWt19,real,,
+dimadev,tblPlantProdDetail,ClipWt20,real,,
+dimadev,tblPlantProdDetail,ADWAdj,character varying,5,20
+dimadev,tblPlantProdDetail,UtilAdj,character varying,5,20
+dimadev,tblPlantProdDetail,GwthAdj,character varying,5,20
+dimadev,tblPlantProdDetail,WthrAdj,character varying,5,20
+dimadev,tblPlantProdDetail,ClippedEstWt,real,,
+dimadev,tblPlantProdDetail,ClippedClipWt,real,,
+dimadev,tblPlantProdDetail,ClipEstCF,real,,
+dimadev,tblPlantProdDetail,TotalWt,real,,
+dimadev,tblPlantProdDetail,TotalWtHectare,real,,
+dimadev,tblPlantProdDetail,PrimaryKey,text,,1073741824
+dimadev,tblPlantProdDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantProdDetail,DBKey,text,,1073741824
+dimadev,tblPlantProdDetail,rid,integer,,
+dimadev,tblPlantProdHeader,PlotKey,character varying,50,200
+dimadev,tblPlantProdHeader,RecKey,character varying,50,200
+dimadev,tblPlantProdHeader,DateModified,timestamp without time zone,,
+dimadev,tblPlantProdHeader,FormType,character varying,50,200
+dimadev,tblPlantProdHeader,FormDate,timestamp without time zone,,
+dimadev,tblPlantProdHeader,LineKey,character varying,50,200
+dimadev,tblPlantProdHeader,Measure,real,,
+dimadev,tblPlantProdHeader,LineLengthAmount,real,,
+dimadev,tblPlantProdHeader,Observer,character varying,50,200
+dimadev,tblPlantProdHeader,Recorder,character varying,50,200
+dimadev,tblPlantProdHeader,DataEntry,character varying,50,200
+dimadev,tblPlantProdHeader,DataErrorChecking,character varying,50,200
+dimadev,tblPlantProdHeader,numSubPlots,real,,
+dimadev,tblPlantProdHeader,SubPlotLocs,character varying,200,800
+dimadev,tblPlantProdHeader,Notes,text,,1073741824
+dimadev,tblPlantProdHeader,TotalProd,real,,
+dimadev,tblPlantProdHeader,SubPlot1Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot2Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot3Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot4Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot5Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot6Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot7Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot8Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot9Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot10Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot11Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot12Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot13Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot14Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot15Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot16Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot17Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot18Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot19Exp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot20Exp,boolean,,
+dimadev,tblPlantProdHeader,TotalProdHectare,real,,
+dimadev,tblPlantProdHeader,SubPlot1NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot2NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot3NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot4NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot5NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot6NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot7NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot8NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot9NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot10NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot11NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot12NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot13NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot14NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot15NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot16NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot17NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot18NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot19NotSamp,boolean,,
+dimadev,tblPlantProdHeader,SubPlot20NotSamp,boolean,,
+dimadev,tblPlantProdHeader,TotNotSamp,real,,
+dimadev,tblPlantProdHeader,PrimaryKey,text,,1073741824
+dimadev,tblPlantProdHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlantProdHeader,DBKey,text,,1073741824
+dimadev,tblPlantProdHeader,plotVisitKey,text,,1073741824
+dimadev,tblPlantProdHeader,rid,integer,,
+dimadev,tblPlotHistory,PlotKey,character varying,20,80
+dimadev,tblPlotHistory,RecKey,character varying,20,80
+dimadev,tblPlotHistory,RecType,character varying,1,4
+dimadev,tblPlotHistory,DateRecorded,timestamp without time zone,,
+dimadev,tblPlotHistory,DateModified,timestamp without time zone,,
+dimadev,tblPlotHistory,PlotCustom1Data,character varying,255,1020
+dimadev,tblPlotHistory,PlotCustom2Data,character varying,255,1020
+dimadev,tblPlotHistory,PlotCustom3Data,character varying,255,1020
+dimadev,tblPlotHistory,PlotCustom4Data,character varying,255,1020
+dimadev,tblPlotHistory,ESD_PctGrassCover,real,,
+dimadev,tblPlotHistory,ESD_ResourceRetentionClass,real,,
+dimadev,tblPlotHistory,ESD_bareGapPatchSize,character varying,255,1020
+dimadev,tblPlotHistory,ESD_grassPatchSize,character varying,255,1020
+dimadev,tblPlotHistory,ESD_SoilRedistributionClass,character varying,5,20
+dimadev,tblPlotHistory,ESD_ResourceRetentionNotes,character varying,255,1020
+dimadev,tblPlotHistory,ESD_Pedoderm_Class,character varying,8,32
+dimadev,tblPlotHistory,ESD_PedodermMod,character varying,8,32
+dimadev,tblPlotHistory,ESD_SurfaceNotes,character varying,255,1020
+dimadev,tblPlotHistory,ESD_Compaction,real,,
+dimadev,tblPlotHistory,ESD_SubsurfaceNotes,character varying,50,200
+dimadev,tblPlotHistory,ESD_StateWithinEcologicalSite,character varying,100,400
+dimadev,tblPlotHistory,ESD_CommunityWithinState,character varying,50,200
+dimadev,tblPlotHistory,ESD_CommunityDescription,character varying,255,1020
+dimadev,tblPlotHistory,ESD_Root_density,character varying,50,200
+dimadev,tblPlotHistory,ESD_Root_Depth,integer,,
+dimadev,tblPlotHistory,ESD_Root_Notes,character varying,250,1000
+dimadev,tblPlotHistory,Observers,character varying,255,1020
+dimadev,tblPlotHistory,Methods,character varying,255,1020
+dimadev,tblPlotHistory,DataEntry,character varying,255,1020
+dimadev,tblPlotHistory,DataEntryDate,timestamp without time zone,,
+dimadev,tblPlotHistory,ErrorCheck,character varying,255,1020
+dimadev,tblPlotHistory,ErrorCheckDate,timestamp without time zone,,
+dimadev,tblPlotHistory,RecentWeatherPast12,character varying,10,40
+dimadev,tblPlotHistory,RecentWeatherPrevious12,character varying,10,40
+dimadev,tblPlotHistory,PrecipUOM,character varying,2,8
+dimadev,tblPlotHistory,PrecipPast12,character varying,4,16
+dimadev,tblPlotHistory,PrecipPrevious12,character varying,4,16
+dimadev,tblPlotHistory,DataSource,character varying,255,1020
+dimadev,tblPlotHistory,Photo1Num,character varying,10,40
+dimadev,tblPlotHistory,Photo2Num,character varying,10,40
+dimadev,tblPlotHistory,Photo3Num,character varying,10,40
+dimadev,tblPlotHistory,Photo4Num,character varying,10,40
+dimadev,tblPlotHistory,Photo5Num,character varying,10,40
+dimadev,tblPlotHistory,Photo6Num,character varying,10,40
+dimadev,tblPlotHistory,Photo1Desc,character varying,50,200
+dimadev,tblPlotHistory,Photo2Desc,character varying,50,200
+dimadev,tblPlotHistory,Photo3Desc,character varying,50,200
+dimadev,tblPlotHistory,Photo4Desc,character varying,50,200
+dimadev,tblPlotHistory,Photo5Desc,character varying,50,200
+dimadev,tblPlotHistory,Photo6Desc,character varying,50,200
+dimadev,tblPlotHistory,Rills,character varying,1,4
+dimadev,tblPlotHistory,Gullies,character varying,1,4
+dimadev,tblPlotHistory,Pedestals,character varying,1,4
+dimadev,tblPlotHistory,Deposition,character varying,1,4
+dimadev,tblPlotHistory,WaterFlow,character varying,1,4
+dimadev,tblPlotHistory,SheetErosion,character varying,1,4
+dimadev,tblPlotHistory,Other,character varying,1,4
+dimadev,tblPlotHistory,MgtHistory,character varying,255,1020
+dimadev,tblPlotHistory,Wildlife,character varying,255,1020
+dimadev,tblPlotHistory,Livestock,character varying,255,1020
+dimadev,tblPlotHistory,OffSite,character varying,255,1020
+dimadev,tblPlotHistory,Disturbances,character varying,255,1020
+dimadev,tblPlotHistory,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlotHistory,DBKey,text,,1073741824
+dimadev,tblPlotHistory,rid,integer,,
+dimadev,tblPlotNotes,CommentID,character varying,50,200
+dimadev,tblPlotNotes,PlotKey,character varying,50,200
+dimadev,tblPlotNotes,NoteDate,timestamp without time zone,,
+dimadev,tblPlotNotes,Recorder,character varying,50,200
+dimadev,tblPlotNotes,Note,text,,1073741824
+dimadev,tblPlotNotes,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlotNotes,DBKey,text,,1073741824
+dimadev,tblPlotNotes,rid,integer,,
+dimadev,tblPlots,SiteKey,character varying,20,80
+dimadev,tblPlots,PlotKey,character varying,20,80
+dimadev,tblPlots,DateModified,timestamp without time zone,,
+dimadev,tblPlots,PlotID,character varying,30,120
+dimadev,tblPlots,genericPlot,boolean,,
+dimadev,tblPlots,EstablishDate,timestamp without time zone,,
+dimadev,tblPlots,State,character varying,5,20
+dimadev,tblPlots,County,character varying,50,200
+dimadev,tblPlots,Directions,text,,1073741824
+dimadev,tblPlots,AvgPrecip,real,,
+dimadev,tblPlots,AvgPrecipUOM,character varying,5,20
+dimadev,tblPlots,EcolSite,character varying,50,200
+dimadev,tblPlots,EcolSiteMLRA,text,,1073741824
+dimadev,tblPlots,EcolSiteSubMLRA,text,,1073741824
+dimadev,tblPlots,EcolSiteNum,text,,1073741824
+dimadev,tblPlots,EcolSiteState,character varying,5,20
+dimadev,tblPlots,Soil,character varying,50,200
+dimadev,tblPlots,ParentMaterial,character varying,50,200
+dimadev,tblPlots,Slope,real,,
+dimadev,tblPlots,Aspect,character varying,5,20
+dimadev,tblPlots,ESD_SlopeShape,character varying,50,200
+dimadev,tblPlots,LandscapeType,character varying,50,200
+dimadev,tblPlots,LandscapeTypeSecondary,character varying,50,200
+dimadev,tblPlots,MgtUnit,character varying,50,200
+dimadev,tblPlots,GPSCoordSys,character varying,50,200
+dimadev,tblPlots,Datum,character varying,10,40
+dimadev,tblPlots,Zone,character varying,5,20
+dimadev,tblPlots,Easting,real,,
+dimadev,tblPlots,Northing,numeric,,
+dimadev,tblPlots,Elevation,real,,
+dimadev,tblPlots,ElevationType,real,,
+dimadev,tblPlots,RecentWeatherPast12,character varying,10,40
+dimadev,tblPlots,RecentWeatherPrevious12,character varying,10,40
+dimadev,tblPlots,DisturbWildfire,boolean,,
+dimadev,tblPlots,DisturbRodents,boolean,,
+dimadev,tblPlots,DisturbMammals,boolean,,
+dimadev,tblPlots,DisturbWater,boolean,,
+dimadev,tblPlots,DisturbWind,boolean,,
+dimadev,tblPlots,DisturbWaterSoilDep,boolean,,
+dimadev,tblPlots,DisturbWindSoilDep,boolean,,
+dimadev,tblPlots,DisturbUndgroundUtils,boolean,,
+dimadev,tblPlots,DisturbOverhdTransLines,boolean,,
+dimadev,tblPlots,DisturbOther,boolean,,
+dimadev,tblPlots,DisturbOtherDesc,character varying,50,200
+dimadev,tblPlots,WildlifeUse,character varying,250,1000
+dimadev,tblPlots,MgtHistory,character varying,255,1020
+dimadev,tblPlots,OffsiteInfluences,character varying,255,1020
+dimadev,tblPlots,Comments,character varying,255,1020
+dimadev,tblPlots,SpeciesList,text,,1073741824
+dimadev,tblPlots,DensityList,text,,1073741824
+dimadev,tblPlots,MapUnitComponent,character varying,255,1020
+dimadev,tblPlots,SoilPhase,text,,1073741824
+dimadev,tblPlots,Unused3,text,,1073741824
+dimadev,tblPlots,Unused4,text,,1073741824
+dimadev,tblPlots,ESD_MLRA,character varying,50,200
+dimadev,tblPlots,ESD_CRA,character varying,15,60
+dimadev,tblPlots,Unused5,text,,1073741824
+dimadev,tblPlots,ESD_Region,character varying,50,200
+dimadev,tblPlots,ESD_Investigators,character varying,255,1020
+dimadev,tblPlots,ESD_Bedrock,character varying,50,200
+dimadev,tblPlots,Unused6,text,,1073741824
+dimadev,tblPlots,ESD_MajorLandform,character varying,255,1020
+dimadev,tblPlots,ESD_ComponentLandform,character varying,50,200
+dimadev,tblPlots,HillslopeType,character varying,50,200
+dimadev,tblPlots,ESD_GeomorphicComp,character varying,8,32
+dimadev,tblPlots,ESD_RunIn_RunOff,character varying,50,200
+dimadev,tblPlots,ESD_SlopeComplexity,character varying,255,1020
+dimadev,tblPlots,Unused7,text,,1073741824
+dimadev,tblPlots,Unused8,text,,1073741824
+dimadev,tblPlots,Unused9,text,,1073741824
+dimadev,tblPlots,Unused10,text,,1073741824
+dimadev,tblPlots,Unused11,text,,1073741824
+dimadev,tblPlots,ESD_LitterClass,character varying,50,200
+dimadev,tblPlots,ESD_BiologicalCrustClass,character varying,50,200
+dimadev,tblPlots,Unused12,text,,1073741824
+dimadev,tblPlots,Unused13,text,,1073741824
+dimadev,tblPlots,Unused14,text,,1073741824
+dimadev,tblPlots,Unused15,text,,1073741824
+dimadev,tblPlots,Unused16,text,,1073741824
+dimadev,tblPlots,Unused17,text,,1073741824
+dimadev,tblPlots,Unused18,text,,1073741824
+dimadev,tblPlots,Unused19,text,,1073741824
+dimadev,tblPlots,Unused20,text,,1073741824
+dimadev,tblPlots,ESD_Series,character varying,50,200
+dimadev,tblPlots,ESD_ParticleSizeClass,character varying,50,200
+dimadev,tblPlots,ESD_Mineralogy,character varying,50,200
+dimadev,tblPlots,ESD_SoilTempRegime,character varying,50,200
+dimadev,tblPlots,ESD_DepthClass,character varying,50,200
+dimadev,tblPlots,ESD_Subgroup,character varying,50,200
+dimadev,tblPlots,ESD_Greatgroup,character varying,50,200
+dimadev,tblPlots,ESD_Reaction,character varying,50,200
+dimadev,tblPlots,ESD_SoilMoistureRegime,character varying,50,200
+dimadev,tblPlots,ESD_CationExchangeActivityClass,character varying,50,200
+dimadev,tblPlots,ESD_Epipedon,character varying,50,200
+dimadev,tblPlots,ESD_Subsurface_features,character varying,250,1000
+dimadev,tblPlots,ESD_Depth_to_root_horizon,real,,
+dimadev,tblPlots,ESD_Type_root_horizon,character varying,50,200
+dimadev,tblPlots,ESD_Horizon_notes,character varying,250,1000
+dimadev,tblPlots,ESD_TrackingID,character varying,50,200
+dimadev,tblPlots,Unused21,text,,1073741824
+dimadev,tblPlots,Unused22,text,,1073741824
+dimadev,tblPlots,EcolSite_Assoc1,character varying,50,200
+dimadev,tblPlots,EcolSite_Assoc2,character varying,50,200
+dimadev,tblPlots,EcolSite_Assoc3,character varying,50,200
+dimadev,tblPlots,EcolSite_Similar1,character varying,50,200
+dimadev,tblPlots,EcolSite_Similar2,character varying,50,200
+dimadev,tblPlots,EcolSite_Similar3,character varying,50,200
+dimadev,tblPlots,EcolSite_Notes,character varying,255,1020
+dimadev,tblPlots,EcolSite_Lookup1,character varying,100,400
+dimadev,tblPlots,EcolSite_Lookup2,character varying,100,400
+dimadev,tblPlots,EcolSite_Lookup3,character varying,100,400
+dimadev,tblPlots,EcolSite_Text1,character varying,100,400
+dimadev,tblPlots,EcolSite_Text2,character varying,100,400
+dimadev,tblPlots,EcolSite_Text3,character varying,100,400
+dimadev,tblPlots,ESD_RecentWeatherPast12,character varying,10,40
+dimadev,tblPlots,ESD_ErosionPatternClass,character varying,5,20
+dimadev,tblPlots,Unused23,text,,1073741824
+dimadev,tblPlots,Unused24,text,,1073741824
+dimadev,tblPlots,Longitude,real,,
+dimadev,tblPlots,Latitude,real,,
+dimadev,tblPlots,CoordLabel1,character varying,20,80
+dimadev,tblPlots,CoordDistance1,real,,
+dimadev,tblPlots,Longitude1,real,,
+dimadev,tblPlots,Latitude1,real,,
+dimadev,tblPlots,Easting1,real,,
+dimadev,tblPlots,Northing1,numeric,,
+dimadev,tblPlots,CoordLabel2,character varying,20,80
+dimadev,tblPlots,CoordDistance2,real,,
+dimadev,tblPlots,Longitude2,real,,
+dimadev,tblPlots,Latitude2,real,,
+dimadev,tblPlots,Easting2,real,,
+dimadev,tblPlots,Northing2,numeric,,
+dimadev,tblPlots,CoordLabel3,character varying,20,80
+dimadev,tblPlots,CoordDistance3,real,,
+dimadev,tblPlots,Longitude3,real,,
+dimadev,tblPlots,Latitude3,real,,
+dimadev,tblPlots,Easting3,real,,
+dimadev,tblPlots,Northing3,numeric,,
+dimadev,tblPlots,PrimaryKey,text,,1073741824
+dimadev,tblPlots,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblPlots,DBKey,text,,1073741824
+dimadev,tblPlots,ProjectKey,text,,1073741824
+dimadev,tblPlots,rid,integer,,
+dimadev,tblSites,SiteKey,character varying,20,80
+dimadev,tblSites,DateModified,timestamp without time zone,,
+dimadev,tblSites,SiteID,character varying,25,100
+dimadev,tblSites,SiteName,character varying,70,280
+dimadev,tblSites,Ownership,character varying,50,200
+dimadev,tblSites,ContactName,character varying,75,300
+dimadev,tblSites,MgtObject,character varying,255,1020
+dimadev,tblSites,MonObject,character varying,255,1020
+dimadev,tblSites,Notes,text,,1073741824
+dimadev,tblSites,uploaded,boolean,,
+dimadev,tblSites,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSites,DBKey,text,,1073741824
+dimadev,tblSites,rid,integer,,
+dimadev,tblSoilPitHorizons,SoilKey,character varying,20,80
+dimadev,tblSoilPitHorizons,HorizonKey,character varying,20,80
+dimadev,tblSoilPitHorizons,HorizonDepthUpper,character varying,50,200
+dimadev,tblSoilPitHorizons,DepthMeasure,character varying,5,20
+dimadev,tblSoilPitHorizons,Texture,character varying,150,600
+dimadev,tblSoilPitHorizons,RockFragments,real,,
+dimadev,tblSoilPitHorizons,Effer,character varying,50,200
+dimadev,tblSoilPitHorizons,HorizonColorDry,text,,1073741824
+dimadev,tblSoilPitHorizons,HorizonColorMoist,text,,1073741824
+dimadev,tblSoilPitHorizons,StructGrade,text,,1073741824
+dimadev,tblSoilPitHorizons,StructShape,text,,1073741824
+dimadev,tblSoilPitHorizons,unused,text,,1073741824
+dimadev,tblSoilPitHorizons,Nomenclature,text,,1073741824
+dimadev,tblSoilPitHorizons,HorizonDepthLower,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Horizon,character varying,10,40
+dimadev,tblSoilPitHorizons,ESD_HorizonModifier,character varying,15,60
+dimadev,tblSoilPitHorizons,ESD_FragVolPct,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_FragmentType,character varying,255,1020
+dimadev,tblSoilPitHorizons,ESD_PetrocalcicRubble,boolean,,
+dimadev,tblSoilPitHorizons,ESD_Gypsic,boolean,,
+dimadev,tblSoilPitHorizons,ESD_PctClay,real,,
+dimadev,tblSoilPitHorizons,ESD_Hue,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Value,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Chroma,real,,
+dimadev,tblSoilPitHorizons,ESD_Color,character varying,5,20
+dimadev,tblSoilPitHorizons,ESD_Grade,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Size,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Structure,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_StructQual,character varying,25,100
+dimadev,tblSoilPitHorizons,ESD_Grade2,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Size2,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_Structure2,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_RuptureResistance,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_ClayFilm,boolean,,
+dimadev,tblSoilPitHorizons,ESD_CarbonateStage,real,,
+dimadev,tblSoilPitHorizons,ESD_CaCO3EquivPct,real,,
+dimadev,tblSoilPitHorizons,ESD_EC,real,,
+dimadev,tblSoilPitHorizons,ESD_pH,real,,
+dimadev,tblSoilPitHorizons,ESD_GypsumPct,real,,
+dimadev,tblSoilPitHorizons,ESD_NAabsorptionRatio,real,,
+dimadev,tblSoilPitHorizons,ESD_Notes,character varying,255,1020
+dimadev,tblSoilPitHorizons,ESD_PSAPctSand,real,,
+dimadev,tblSoilPitHorizons,ESD_PSAPctSilt,real,,
+dimadev,tblSoilPitHorizons,ESD_PSAPctClay,real,,
+dimadev,tblSoilPitHorizons,ESD_GravelClassPctFine,real,,
+dimadev,tblSoilPitHorizons,ESD_GravelClassPctMed,real,,
+dimadev,tblSoilPitHorizons,ESD_GravelClassPctCoarse,real,,
+dimadev,tblSoilPitHorizons,ESD_GravelCarbonateCoatPct,real,,
+dimadev,tblSoilPitHorizons,ESD_FragmentRoundness,character varying,5,20
+dimadev,tblSoilPitHorizons,ESD_RootSize,character varying,5,20
+dimadev,tblSoilPitHorizons,ESD_RootQty,character varying,15,60
+dimadev,tblSoilPitHorizons,ESD_PoresSize,character varying,5,20
+dimadev,tblSoilPitHorizons,ESD_PoresQty,character varying,15,60
+dimadev,tblSoilPitHorizons,ESD_SandFractPctVeryFine,real,,
+dimadev,tblSoilPitHorizons,ESD_SandFractPctFine,real,,
+dimadev,tblSoilPitHorizons,ESD_SandFractPctMed,real,,
+dimadev,tblSoilPitHorizons,ESD_SandFractPctCoarse,real,,
+dimadev,tblSoilPitHorizons,ESD_SandFractPctVeryCoarse,real,,
+dimadev,tblSoilPitHorizons,ESD_FragVolPct2,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_FragmentType2,character varying,255,1020
+dimadev,tblSoilPitHorizons,ESD_FragVolPct3,character varying,50,200
+dimadev,tblSoilPitHorizons,ESD_FragmentType3,character varying,255,1020
+dimadev,tblSoilPitHorizons,ESD_PctSand,real,,
+dimadev,tblSoilPitHorizons,ESD_LabGravelPctFine,real,,
+dimadev,tblSoilPitHorizons,ESD_LabGravelPctMed,real,,
+dimadev,tblSoilPitHorizons,ESD_LabGravelPctCoarse,real,,
+dimadev,tblSoilPitHorizons,HorizonDepthUpperNum,real,,
+dimadev,tblSoilPitHorizons,PrimaryKey,text,,1073741824
+dimadev,tblSoilPitHorizons,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSoilPitHorizons,DBKey,text,,1073741824
+dimadev,tblSoilPitHorizons,rid,integer,,
+dimadev,tblSoilPits,PlotKey,character varying,20,80
+dimadev,tblSoilPits,SoilKey,character varying,20,80
+dimadev,tblSoilPits,Observer,character varying,255,1020
+dimadev,tblSoilPits,PitDesc,character varying,30,120
+dimadev,tblSoilPits,SoilDepthUpper,text,,1073741824
+dimadev,tblSoilPits,SoilDepthLower,character varying,50,200
+dimadev,tblSoilPits,SurfTexture,text,,1073741824
+dimadev,tblSoilPits,RockFragments,real,,
+dimadev,tblSoilPits,SurfEffer,text,,1073741824
+dimadev,tblSoilPits,ColorDry,text,,1073741824
+dimadev,tblSoilPits,ColorMoist,text,,1073741824
+dimadev,tblSoilPits,DepthMeasure,character varying,50,200
+dimadev,tblSoilPits,Northing,numeric,,
+dimadev,tblSoilPits,Easting,real,,
+dimadev,tblSoilPits,Elevation,real,,
+dimadev,tblSoilPits,ElevationType,real,,
+dimadev,tblSoilPits,Notes,character varying,255,1020
+dimadev,tblSoilPits,Latitude,real,,
+dimadev,tblSoilPits,Longitude,real,,
+dimadev,tblSoilPits,DateRecorded,timestamp without time zone,,
+dimadev,tblSoilPits,PrimaryKey,text,,1073741824
+dimadev,tblSoilPits,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSoilPits,DBKey,text,,1073741824
+dimadev,tblSoilPits,rid,integer,,
+dimadev,tblSoilStabDetail,RecKey,character varying,50,200
+dimadev,tblSoilStabDetail,BoxNum,real,,
+dimadev,tblSoilStabDetail,Line1,character varying,10,40
+dimadev,tblSoilStabDetail,Line2,character varying,10,40
+dimadev,tblSoilStabDetail,Line3,character varying,10,40
+dimadev,tblSoilStabDetail,Line4,character varying,10,40
+dimadev,tblSoilStabDetail,Line5,character varying,10,40
+dimadev,tblSoilStabDetail,Line6,character varying,10,40
+dimadev,tblSoilStabDetail,Pos1,character varying,5,20
+dimadev,tblSoilStabDetail,Pos2,character varying,5,20
+dimadev,tblSoilStabDetail,Pos3,character varying,5,20
+dimadev,tblSoilStabDetail,Pos4,character varying,5,20
+dimadev,tblSoilStabDetail,Pos5,character varying,5,20
+dimadev,tblSoilStabDetail,Pos6,character varying,5,20
+dimadev,tblSoilStabDetail,Pos7,character varying,5,20
+dimadev,tblSoilStabDetail,Pos8,character varying,5,20
+dimadev,tblSoilStabDetail,Pos9,character varying,5,20
+dimadev,tblSoilStabDetail,Pos10,character varying,5,20
+dimadev,tblSoilStabDetail,Pos11,character varying,5,20
+dimadev,tblSoilStabDetail,Pos12,character varying,5,20
+dimadev,tblSoilStabDetail,Pos13,character varying,5,20
+dimadev,tblSoilStabDetail,Pos14,character varying,5,20
+dimadev,tblSoilStabDetail,Pos15,character varying,5,20
+dimadev,tblSoilStabDetail,Pos16,character varying,5,20
+dimadev,tblSoilStabDetail,Pos17,character varying,5,20
+dimadev,tblSoilStabDetail,Pos18,character varying,5,20
+dimadev,tblSoilStabDetail,Veg1,character varying,5,20
+dimadev,tblSoilStabDetail,Veg2,character varying,5,20
+dimadev,tblSoilStabDetail,Veg3,character varying,5,20
+dimadev,tblSoilStabDetail,Veg4,character varying,5,20
+dimadev,tblSoilStabDetail,Veg5,character varying,5,20
+dimadev,tblSoilStabDetail,Veg6,character varying,5,20
+dimadev,tblSoilStabDetail,Veg7,character varying,5,20
+dimadev,tblSoilStabDetail,Veg8,character varying,5,20
+dimadev,tblSoilStabDetail,Veg9,character varying,5,20
+dimadev,tblSoilStabDetail,Veg10,character varying,5,20
+dimadev,tblSoilStabDetail,Veg11,character varying,5,20
+dimadev,tblSoilStabDetail,Veg12,character varying,5,20
+dimadev,tblSoilStabDetail,Veg13,character varying,5,20
+dimadev,tblSoilStabDetail,Veg14,character varying,5,20
+dimadev,tblSoilStabDetail,Veg15,character varying,5,20
+dimadev,tblSoilStabDetail,Veg16,character varying,5,20
+dimadev,tblSoilStabDetail,Veg17,character varying,5,20
+dimadev,tblSoilStabDetail,Veg18,character varying,5,20
+dimadev,tblSoilStabDetail,Rating1,character varying,1,4
+dimadev,tblSoilStabDetail,Rating2,character varying,1,4
+dimadev,tblSoilStabDetail,Rating3,character varying,1,4
+dimadev,tblSoilStabDetail,Rating4,character varying,1,4
+dimadev,tblSoilStabDetail,Rating5,character varying,1,4
+dimadev,tblSoilStabDetail,Rating6,character varying,1,4
+dimadev,tblSoilStabDetail,Rating7,character varying,1,4
+dimadev,tblSoilStabDetail,Rating8,character varying,1,4
+dimadev,tblSoilStabDetail,Rating9,character varying,1,4
+dimadev,tblSoilStabDetail,Rating10,character varying,1,4
+dimadev,tblSoilStabDetail,Rating11,character varying,1,4
+dimadev,tblSoilStabDetail,Rating12,character varying,1,4
+dimadev,tblSoilStabDetail,Rating13,character varying,1,4
+dimadev,tblSoilStabDetail,Rating14,character varying,1,4
+dimadev,tblSoilStabDetail,Rating15,character varying,1,4
+dimadev,tblSoilStabDetail,Rating16,character varying,1,4
+dimadev,tblSoilStabDetail,Rating17,character varying,1,4
+dimadev,tblSoilStabDetail,Rating18,character varying,1,4
+dimadev,tblSoilStabDetail,Hydro1,boolean,,
+dimadev,tblSoilStabDetail,Hydro2,boolean,,
+dimadev,tblSoilStabDetail,Hydro3,boolean,,
+dimadev,tblSoilStabDetail,Hydro4,boolean,,
+dimadev,tblSoilStabDetail,Hydro5,boolean,,
+dimadev,tblSoilStabDetail,Hydro6,boolean,,
+dimadev,tblSoilStabDetail,Hydro7,boolean,,
+dimadev,tblSoilStabDetail,Hydro8,boolean,,
+dimadev,tblSoilStabDetail,Hydro9,boolean,,
+dimadev,tblSoilStabDetail,Hydro10,boolean,,
+dimadev,tblSoilStabDetail,Hydro11,boolean,,
+dimadev,tblSoilStabDetail,Hydro12,boolean,,
+dimadev,tblSoilStabDetail,Hydro13,boolean,,
+dimadev,tblSoilStabDetail,Hydro14,boolean,,
+dimadev,tblSoilStabDetail,Hydro15,boolean,,
+dimadev,tblSoilStabDetail,Hydro16,boolean,,
+dimadev,tblSoilStabDetail,Hydro17,boolean,,
+dimadev,tblSoilStabDetail,Hydro18,boolean,,
+dimadev,tblSoilStabDetail,In1,character varying,5,20
+dimadev,tblSoilStabDetail,In2,character varying,5,20
+dimadev,tblSoilStabDetail,In3,character varying,5,20
+dimadev,tblSoilStabDetail,In4,character varying,5,20
+dimadev,tblSoilStabDetail,In5,character varying,5,20
+dimadev,tblSoilStabDetail,In6,character varying,5,20
+dimadev,tblSoilStabDetail,In7,character varying,5,20
+dimadev,tblSoilStabDetail,In8,character varying,5,20
+dimadev,tblSoilStabDetail,In9,character varying,5,20
+dimadev,tblSoilStabDetail,In10,character varying,5,20
+dimadev,tblSoilStabDetail,In11,character varying,5,20
+dimadev,tblSoilStabDetail,In12,character varying,5,20
+dimadev,tblSoilStabDetail,In13,character varying,5,20
+dimadev,tblSoilStabDetail,In14,character varying,5,20
+dimadev,tblSoilStabDetail,In15,character varying,5,20
+dimadev,tblSoilStabDetail,In16,character varying,5,20
+dimadev,tblSoilStabDetail,In17,character varying,5,20
+dimadev,tblSoilStabDetail,In18,character varying,5,20
+dimadev,tblSoilStabDetail,Dip1,character varying,5,20
+dimadev,tblSoilStabDetail,Dip2,character varying,5,20
+dimadev,tblSoilStabDetail,Dip3,character varying,5,20
+dimadev,tblSoilStabDetail,Dip4,character varying,5,20
+dimadev,tblSoilStabDetail,Dip5,character varying,5,20
+dimadev,tblSoilStabDetail,Dip6,character varying,5,20
+dimadev,tblSoilStabDetail,Dip7,character varying,5,20
+dimadev,tblSoilStabDetail,Dip8,character varying,5,20
+dimadev,tblSoilStabDetail,Dip9,character varying,5,20
+dimadev,tblSoilStabDetail,Dip10,character varying,5,20
+dimadev,tblSoilStabDetail,Dip11,character varying,5,20
+dimadev,tblSoilStabDetail,Dip12,character varying,5,20
+dimadev,tblSoilStabDetail,Dip13,character varying,5,20
+dimadev,tblSoilStabDetail,Dip14,character varying,5,20
+dimadev,tblSoilStabDetail,Dip15,character varying,5,20
+dimadev,tblSoilStabDetail,Dip16,character varying,5,20
+dimadev,tblSoilStabDetail,Dip17,character varying,5,20
+dimadev,tblSoilStabDetail,Dip18,character varying,5,20
+dimadev,tblSoilStabDetail,PrimaryKey,text,,1073741824
+dimadev,tblSoilStabDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSoilStabDetail,DBKey,text,,1073741824
+dimadev,tblSoilStabDetail,rid,integer,,
+dimadev,tblSoilStabHeader,PlotKey,character varying,20,80
+dimadev,tblSoilStabHeader,RecKey,character varying,50,200
+dimadev,tblSoilStabHeader,DateModified,timestamp without time zone,,
+dimadev,tblSoilStabHeader,FormType,character varying,50,200
+dimadev,tblSoilStabHeader,FormDate,timestamp without time zone,,
+dimadev,tblSoilStabHeader,LineKey,character varying,20,80
+dimadev,tblSoilStabHeader,Observer,character varying,50,200
+dimadev,tblSoilStabHeader,Recorder,character varying,50,200
+dimadev,tblSoilStabHeader,DataEntry,character varying,50,200
+dimadev,tblSoilStabHeader,DataErrorChecking,character varying,50,200
+dimadev,tblSoilStabHeader,SoilStabSubSurface,real,,
+dimadev,tblSoilStabHeader,SoilStabTimeInterval,real,,
+dimadev,tblSoilStabHeader,SoilStabDataEntryLayout,real,,
+dimadev,tblSoilStabHeader,AllAvgSurf,real,,
+dimadev,tblSoilStabHeader,AllAvgSub,real,,
+dimadev,tblSoilStabHeader,ProAvgSurf,real,,
+dimadev,tblSoilStabHeader,ProAvgSub,real,,
+dimadev,tblSoilStabHeader,NCAvgSurf,real,,
+dimadev,tblSoilStabHeader,NCAvgSub,real,,
+dimadev,tblSoilStabHeader,NoVegAvgSurf,real,,
+dimadev,tblSoilStabHeader,NoVegAvgSub,real,,
+dimadev,tblSoilStabHeader,PctSurf6,real,,
+dimadev,tblSoilStabHeader,PctSub6,real,,
+dimadev,tblSoilStabHeader,Notes,text,,1073741824
+dimadev,tblSoilStabHeader,SoilStabLimitedVeg,boolean,,
+dimadev,tblSoilStabHeader,PrimaryKey,text,,1073741824
+dimadev,tblSoilStabHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSoilStabHeader,DBKey,text,,1073741824
+dimadev,tblSoilStabHeader,plotVisitKey,text,,1073741824
+dimadev,tblSoilStabHeader,rid,integer,,
+dimadev,tblSpecies,SpeciesCode,character varying,255,1020
+dimadev,tblSpecies,ScientificName,character varying,255,1020
+dimadev,tblSpecies,CommonName,character varying,255,1020
+dimadev,tblSpecies,Family,character varying,255,1020
+dimadev,tblSpecies,SortSeq,integer,,
+dimadev,tblSpecies,synonymOf,character varying,255,1020
+dimadev,tblSpecies,GrowthHabitCode,character varying,20,80
+dimadev,tblSpecies,Duration,character varying,20,80
+dimadev,tblSpecies,Stabilizing,boolean,,
+dimadev,tblSpecies,Invasive,boolean,,
+dimadev,tblSpecies,Group,character varying,30,120
+dimadev,tblSpecies,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSpecies,DBKey,text,,1073741824
+dimadev,tblSpecies,rid,integer,,
+dimadev,tblSpeciesGeneric,SpeciesCode,character varying,255,1020
+dimadev,tblSpeciesGeneric,ScientificName,character varying,255,1020
+dimadev,tblSpeciesGeneric,CommonName,character varying,255,1020
+dimadev,tblSpeciesGeneric,Family,character varying,255,1020
+dimadev,tblSpeciesGeneric,SortSeq,integer,,
+dimadev,tblSpeciesGeneric,synonymOf,character varying,255,1020
+dimadev,tblSpeciesGeneric,GrowthHabitCode,character varying,255,1020
+dimadev,tblSpeciesGeneric,Duration,character varying,255,1020
+dimadev,tblSpeciesGeneric,Stabilizing,boolean,,
+dimadev,tblSpeciesGeneric,Group,character varying,255,1020
+dimadev,tblSpeciesGeneric,DateModified,timestamp without time zone,,
+dimadev,tblSpeciesGeneric,DateFound,timestamp without time zone,,
+dimadev,tblSpeciesGeneric,PlotFirstFound,character varying,255,1020
+dimadev,tblSpeciesGeneric,PotentialGenus,character varying,255,1020
+dimadev,tblSpeciesGeneric,PotenialSpecies,character varying,255,1020
+dimadev,tblSpeciesGeneric,PotentialSubspecies,character varying,255,1020
+dimadev,tblSpeciesGeneric,Comments,character varying,255,1020
+dimadev,tblSpeciesGeneric,PhotosTaken,boolean,,
+dimadev,tblSpeciesGeneric,PhotoNumbers,character varying,255,1020
+dimadev,tblSpeciesGeneric,SpecimenCollected,boolean,,
+dimadev,tblSpeciesGeneric,IdentifiedTo,character varying,255,1020
+dimadev,tblSpeciesGeneric,FinalCode,character varying,255,1020
+dimadev,tblSpeciesGeneric,ChangedInDIMA,boolean,,
+dimadev,tblSpeciesGeneric,petalsNumber,integer,,
+dimadev,tblSpeciesGeneric,petalsColor,character varying,255,1020
+dimadev,tblSpeciesGeneric,petalsSize,character varying,255,1020
+dimadev,tblSpeciesGeneric,sepalsNumber,integer,,
+dimadev,tblSpeciesGeneric,sepalsColor,character varying,255,1020
+dimadev,tblSpeciesGeneric,sepalsSize,character varying,255,1020
+dimadev,tblSpeciesGeneric,stamensNumber,integer,,
+dimadev,tblSpeciesGeneric,stamensColor,character varying,255,1020
+dimadev,tblSpeciesGeneric,stamensSize,character varying,255,1020
+dimadev,tblSpeciesGeneric,glumesPresent,boolean,,
+dimadev,tblSpeciesGeneric,ligulesPresent,boolean,,
+dimadev,tblSpeciesGeneric,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSpeciesGeneric,DBKey,text,,1073741824
+dimadev,tblSpeciesGeneric,rid,integer,,
+dimadev,tblSpecRichDetail,RecKey,character varying,50,200
+dimadev,tblSpecRichDetail,subPlotID,integer,,
+dimadev,tblSpecRichDetail,subPlotDesc,character varying,15,60
+dimadev,tblSpecRichDetail,SpeciesCount,integer,,
+dimadev,tblSpecRichDetail,SpeciesList,text,,1073741824
+dimadev,tblSpecRichDetail,PrimaryKey,text,,1073741824
+dimadev,tblSpecRichDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSpecRichDetail,DBKey,text,,1073741824
+dimadev,tblSpecRichDetail,rid,integer,,
+dimadev,tblSpecRichHeader,LineKey,character varying,50,200
+dimadev,tblSpecRichHeader,RecKey,character varying,50,200
+dimadev,tblSpecRichHeader,DateModified,timestamp without time zone,,
+dimadev,tblSpecRichHeader,FormType,character varying,8,32
+dimadev,tblSpecRichHeader,FormDate,timestamp without time zone,,
+dimadev,tblSpecRichHeader,Observer,character varying,50,200
+dimadev,tblSpecRichHeader,Recorder,character varying,50,200
+dimadev,tblSpecRichHeader,DataEntry,character varying,50,200
+dimadev,tblSpecRichHeader,DataErrorChecking,character varying,50,200
+dimadev,tblSpecRichHeader,SpecRichMethod,real,,
+dimadev,tblSpecRichHeader,SpecRichMeasure,real,,
+dimadev,tblSpecRichHeader,SpecRichNbrSubPlots,real,,
+dimadev,tblSpecRichHeader,SpecRich1Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich1Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich1Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich1Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich1Area,real,,
+dimadev,tblSpecRichHeader,SpecRich2Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich2Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich2Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich2Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich2Area,real,,
+dimadev,tblSpecRichHeader,SpecRich3Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich3Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich3Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich3Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich3Area,real,,
+dimadev,tblSpecRichHeader,SpecRich4Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich4Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich4Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich4Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich4Area,real,,
+dimadev,tblSpecRichHeader,SpecRich5Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich5Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich5Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich5Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich5Area,real,,
+dimadev,tblSpecRichHeader,SpecRich6Container,boolean,,
+dimadev,tblSpecRichHeader,SpecRich6Shape,real,,
+dimadev,tblSpecRichHeader,SpecRich6Dim1,real,,
+dimadev,tblSpecRichHeader,SpecRich6Dim2,real,,
+dimadev,tblSpecRichHeader,SpecRich6Area,real,,
+dimadev,tblSpecRichHeader,Notes,text,,1073741824
+dimadev,tblSpecRichHeader,PrimaryKey,text,,1073741824
+dimadev,tblSpecRichHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblSpecRichHeader,DBKey,text,,1073741824
+dimadev,tblSpecRichHeader,rid,integer,,
+dimadev,tblTreeDenDetail,RecKey,character varying,50,200
+dimadev,tblTreeDenDetail,SubPlot,character varying,50,200
+dimadev,tblTreeDenDetail,SpeciesCode,character varying,255,1020
+dimadev,tblTreeDenDetail,DBH,real,,
+dimadev,tblTreeDenDetail,DRC,real,,
+dimadev,tblTreeDenDetail,Height,real,,
+dimadev,tblTreeDenDetail,chkboxDead,boolean,,
+dimadev,tblTreeDenDetail,PrimaryKey,text,,1073741824
+dimadev,tblTreeDenDetail,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblTreeDenDetail,DBKey,text,,1073741824
+dimadev,tblTreeDenDetail,rid,integer,,
+dimadev,tblTreeDenHeader,PlotKey,character varying,50,200
+dimadev,tblTreeDenHeader,RecKey,character varying,50,200
+dimadev,tblTreeDenHeader,DateModified,timestamp without time zone,,
+dimadev,tblTreeDenHeader,FormType,character varying,50,200
+dimadev,tblTreeDenHeader,FormDate,timestamp without time zone,,
+dimadev,tblTreeDenHeader,Observer,character varying,50,200
+dimadev,tblTreeDenHeader,Recorder,character varying,50,200
+dimadev,tblTreeDenHeader,DataEntry,character varying,50,200
+dimadev,tblTreeDenHeader,DataErrorChecking,character varying,50,200
+dimadev,tblTreeDenHeader,Notes,text,,1073741824
+dimadev,tblTreeDenHeader,LineLengthAmount,real,,
+dimadev,tblTreeDenHeader,SubPlotRadius,real,,
+dimadev,tblTreeDenHeader,SubPlotMeasure,real,,
+dimadev,tblTreeDenHeader,DiameterMeasure,real,,
+dimadev,tblTreeDenHeader,HeightMeasure,real,,
+dimadev,tblTreeDenHeader,TapeType,character varying,5,20
+dimadev,tblTreeDenHeader,numSubplots,integer,,
+dimadev,tblTreeDenHeader,Sub1Desc,character varying,50,200
+dimadev,tblTreeDenHeader,Sub2Desc,character varying,50,200
+dimadev,tblTreeDenHeader,Sub3Desc,character varying,50,200
+dimadev,tblTreeDenHeader,Sub4Desc,character varying,50,200
+dimadev,tblTreeDenHeader,PlotArea,real,,
+dimadev,tblTreeDenHeader,totTrees,integer,,
+dimadev,tblTreeDenHeader,totSaplings,integer,,
+dimadev,tblTreeDenHeader,denTrees,real,,
+dimadev,tblTreeDenHeader,denSaplings,real,,
+dimadev,tblTreeDenHeader,denTreesAcre,real,,
+dimadev,tblTreeDenHeader,denSaplingsAcre,real,,
+dimadev,tblTreeDenHeader,totSeedlings,integer,,
+dimadev,tblTreeDenHeader,denSeedlings,real,,
+dimadev,tblTreeDenHeader,denSeedlingsAcre,real,,
+dimadev,tblTreeDenHeader,PrimaryKey,text,,1073741824
+dimadev,tblTreeDenHeader,DateLoadedInDB,timestamp without time zone,,
+dimadev,tblTreeDenHeader,DBKey,text,,1073741824
+dimadev,tblTreeDenHeader,rid,integer,,
